@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Home Page</title>
+    <!-- CDN -->
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <!-- start header -->
+    <header class="header">
+        <div class="container">
+            <div class="row navBar-top">
+                <ul class="location col-lg-7">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        96 Ernser Vista Suite 437, NY, US
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        (123) 456-78-910
+                    </li>
+                </ul>
+                <div class="navBar-top-links col-lg-5 ms-auto">
+                    <a href="login.html">Login</a>
+                    <hr />
+                    <a href="register.html">Register</a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <div class="image">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="imgs/logo.png (1).webp" alt="Logo">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                    <div class="offcanvas-header position-relative">
+                        <div class="offcanvas-title" id="staticBackdropLabel">
+                            <ul class="location">
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    96 Ernser Vista Suite 437, NY, US
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-phone"></i>
+                                    (123) 456-78-910
+                                </li>
+                            </ul>
+                            <div class="navBar-top-links">
+                                <a href="#">Login</a>
+                                <hr />
+                                <a href="#">Register</a>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav m-auto me-xl-5 me-lg-4 pe-xl-4">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Rooms.html">Rooms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="About.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Details
+                                </a>
+                                <ul class="inner-links">
+                                    <li><a href="About.html">
+                                        About Us
+                                    </a></li>
+                                    <li><a href="room-details.html">
+                                        Room Details
+                                    </a></li>
+                                    <li><a href="blog-details.html">
+                                        Blog Details
+                                    </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn">
+                            Book Now
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+
+    <!-- start heroSec -->
+    <section class="heroSec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text">
+                        <p class="special-p">
+                            Welcome Hiroto
+                        </p>
+                        <h1>
+                            Experience the greatest for you holidays.
+                        </h1>
+                    </div>
+                    <form  class="row g-lg-4" action="#">
+                        <div class="box col-lg-3 mt-0">
+                            <h4>
+                                Location
+                            </h4>
+                            <div class="form-input position-relative">
+                                <input class="input search" type="search" id="search" name="search" placeholder="Search Location" />
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="box col-lg-2 mt-0">
+                            <h4>
+                                Cheack In
+                            </h4>
+                            <div class="form-input position-relative">
+                                <input class="input date" type="date" name="date-1" id="date-1" />
+                            </div>
+                        </div>
+                        <div class="box col-lg-2 mt-0">
+                            <h4>
+                                Check Out
+                            </h4>
+                            <div class="form-input position-relative">
+                                <input class="input date" type="date" name="date-2" id="date-2" />
+                            </div>
+                        </div>
+                        <div class="box col-lg-3 mt-0">
+                            <h4>
+                                Person
+                            </h4>
+                            <div class="form-input position-relative">
+                                <select class="input form-select" aria-label="Default select example">
+                                    <option value="1" selected>2 Adult, 1 Children</option>
+                                    <option value="2">1 Adult</option>
+                                    <option value="3">2 Adults</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="box col-lg-2 mt-0">
+                            <input class="submit-1" type="submit" id="submit" name="submit" value="Book Now" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end heroSec -->
+
+    <!-- start aboutSec -->
+    <section class="aboutSec">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 col-md-12 text">
+                    <p class="special-p">About Us</p>
+                    <h2>
+                        Welcome Hiroto Hotel In Street L’Abreuvoir
+                    </h2>
+                    <p>
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    </p>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+                    </p>
+                    <div class="image-sign">
+                        <img src="imgs/sign.png.webp" alt="Our Sign" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="image">
+                        <img src="imgs/home-about.png.webp" alt="Our-Hotel Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end aboutSec -->
+
+    <!-- start services-sec -->
+    <section class="services-sec">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 column">
+                    <div class="image">
+                        <img src="imgs/services-1.png.webp" alt="Wifi logo image" />
+                    </div>
+                    <div class="text">
+                        <h4>
+                            Free Wi-Fi
+                        </h4>
+                        <p>
+                            The massive investment in a hotel or resort requires constant reviews and control in order to make it a successful investment.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 column">
+                    <div class="image">
+                        <img src="imgs/services-2.png.webp" alt="Pool Logo Image" />
+                    </div>
+                    <div class="text">
+                        <h4>
+                            Premium Pool
+                        </h4>
+                        <p>
+                            Choose from 4 unique ready made concepts, let us help you create the concept perfect for you or let HCA.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 column">
+                    <div class="image">
+                        <img src="imgs/services-3.png.webp" alt="Cofe logo Image" />
+                    </div>
+                    <div class="text">
+                        <h4>
+                            Coffee Maker
+                        </h4>
+                        <p>
+                            HCA's Owner's Representation is taking care of just these important factors, may it be through regular site visits and spot checks.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 column">
+                    <div class="image">
+                        <img src="imgs/services-4.png.webp" alt="Wine-Glass Logo Image" />
+                    </div>
+                    <div class="text">
+                        <h4>
+                            Bar Wine
+                        </h4>
+                        <p>
+                            For properties with third party management companies, HCA Consultants will as well administer the terms and conditions.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 column">
+                    <div class="image">
+                        <img src="imgs/services-5.png.webp" alt="TV-Logo Image" />
+                    </div>
+                    <div class="text">
+                        <h4>
+                            TV HD
+                        </h4>
+                        <p>
+                            We provide a critical analysis of a hotel's marketing strategy, bench-marking it against industry and competitive practices.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 column">
+                    <div class="image">
+                        <img src="imgs/services-6.png.webp" alt="Restraunt Logo Image" />
+                    </div>
+                    <div class="text">
+                        <h4>
+                            Restaurant
+                        </h4>
+                        <p>
+                            A hotel and restaurant investment deserves careful and market oriented financial planning and projections.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end services-sec -->
+
+    <!-- start explore-sec -->
+    <section class="explore-sec">
+        <div class="my-container">
+            <div class="mainHeading">
+                <p class="special-p">
+                    Our Room
+                </p>
+                <h2>
+                    Explore Our Hotel
+                </h2>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="image position-relative">
+                        <div class="price">
+                            <h4>
+                                Deluxe Room
+                            </h4>
+                            <p>
+                                <sup>$</sup>
+                                55
+                                <span>/day</span>
+                            </p>
+                        </div>
+                        <button type="button" class="btn">Booking Now</button>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="image position-relative">
+                        <div class="price">
+                            <h4>
+                                Deluxe Room
+                            </h4>
+                            <p>
+                                <sup>$</sup>
+                                85
+                                <span>/day</span>
+                            </p>
+                        </div>
+                        <button type="button" class="btn">Booking Now</button>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="image position-relative">
+                        <div class="price">
+                            <h4>
+                                Deluxe Room
+                            </h4>
+                            <p>
+                                <sup>$</sup>
+                                94
+                                <span>/day</span>
+                            </p>
+                        </div>
+                        <button type="button" class="btn">Booking Now</button>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="image position-relative">
+                        <div class="price">
+                            <h4>
+                                Deluxe Room
+                            </h4>
+                            <p>
+                                <sup>$</sup>
+                                71
+                                <span>/day</span>
+                            </p>
+                        </div>
+                        <button type="button" class="btn">Booking Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row last-part">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <h5>Planning your next trip? Save up to 25% on your hotel</h5>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 last-column">
+                    <button type="button" class="btn">Explore More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end explore-sec -->
+
+    <!-- start Testimonials-sec -->
+    <section class="testimonials-sec">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 column-1">
+                    <div class="image">
+                        <img src="imgs/testimonial-left.jpg.webp" alt="Customer Image" />
+                    </div>
+                </div>
+                <div class="col-lg-6 cursol">
+                    <div class="mainHeading">
+                        <p class="special-p">
+                            Testimonials
+                        </p>
+                        <h2>
+                            What do customers say about us?
+                        </h2>
+                    </div>
+                    <div id="carouselExample" class="carousel slide position-relative">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-head">
+                                    <h4>
+                                        Detailed Review:
+                                    </h4>
+                                    <div class="icons">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="carousel-body">
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                                <div class="carousel-footer">
+                                    <div class="start">
+                                        <h5>
+                                            Richard Hobson
+                                        </h5>
+                                        <ul class="social">
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a></li>
+                                        </ul>
+                                    </div>
+                                    <p class="end">
+                                        Director Colorlib
+                                    </p>
+                                </div>
+                                <div class="carousel-index">
+                                    <p>01 <span></span> 04</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-head">
+                                    <h4>
+                                        Detailed Review:
+                                    </h4>
+                                    <div class="icons">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="carousel-body">
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                                <div class="carousel-footer">
+                                    <div class="start">
+                                        <h5>
+                                            John Smith
+                                        </h5>
+                                        <ul class="social">
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a></li>
+                                        </ul>
+                                    </div>
+                                    <p class="end">
+                                        Director Colorlib
+                                    </p>
+                                </div>
+                                <div class="carousel-index">
+                                    <p>02 <span></span> 04</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-head">
+                                    <h4>
+                                        Detailed Review:
+                                    </h4>
+                                    <div class="icons">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="carousel-body">
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                                <div class="carousel-footer">
+                                    <div class="start">
+                                        <h5>
+                                            Jack Kelly
+                                        </h5>
+                                        <ul class="social">
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a></li>
+                                        </ul>
+                                    </div>
+                                    <p class="end">
+                                        Director Colorlib
+                                    </p>
+                                </div>
+                                <div class="carousel-index">
+                                    <p>03 <span></span> 04</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-head">
+                                    <h4>
+                                        Detailed Review:
+                                    </h4>
+                                    <div class="icons">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="carousel-body">
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                                </p>
+                                <div class="carousel-footer">
+                                    <div class="start">
+                                        <h5>
+                                            Richard Hobson
+                                        </h5>
+                                        <ul class="social">
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-twitter"></i>
+                                            </a></li>
+                                            <li><a href="#">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a></li>
+                                        </ul>
+                                    </div>
+                                    <p class="end">
+                                        Director Colorlib
+                                    </p>
+                                </div>
+                                <div class="carousel-index">
+                                    <p>04 <span></span> 04</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <i class="fa-solid fa-angle-left"></i>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Testimonials-sec -->
+
+    <!-- start choose-sec -->
+    <section class="choose-sec">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8 text-center">
+                    <div class="mainHeading">
+                        <p class="special-p">
+                            Why Choose us
+                        </p>
+                        <h2>
+                            Contact us now to get the latest deals and for the next booking
+                        </h2>
+                        <button type="button" class="btn">Booking Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end choose-sec -->
+
+    <!-- start ourGallerySec -->
+    <section class="ourGallerySec">
+        <div class="container pb-3 mb-5">
+            <div class="row g-5">
+                <div class="col-lg-6 mt-4">
+                    <div class="mainHeading">
+                        <p class="special-p">
+                            OUR GALLERY
+                        </p>
+                        <h2>
+                            Explore The Most Beautiful In The Hotel
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sunt in culpa qui officia deserunt mollit anim.
+                    </p>
+                    <button type="button" class="btn">
+                        View Gallery 
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="my-container">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="image"></div>
+                </div>
+                <div class="my-col">
+                    <div class="image"></div>
+                </div>
+                <div class="my-col">
+                    <div class="image"></div>
+                </div>
+                <div class="my-col">
+                    <div class="image"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end ourGallerySec -->
+
+    <!-- start ourBlogSec -->
+    <section class="ourBlogSec">
+        <div class="container">
+            <div class="mainHeading">
+                <p class="special-p">
+                    NEWS & EVENT
+                </p>
+                <h2>
+                    From Our Blog
+                </h2>
+            </div>
+            <div class="row g-lg-0">
+                <div class="col-lg-6 column-1">
+                    <div class="row g-0">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="image">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 text">
+                            <p class="label">
+                                Hotel
+                            </p>
+                            <div class="text-body">
+                                <h5>
+                                    Ut enim ad minim veniam, quis nostrud
+                                </h5>
+                                <p class="before">
+                                    <i class="fa-regular fa-clock"></i>
+                                    25th March, 2019
+                                </p>
+                            </div>
+                            <button type="button" class="btn">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 column-2">
+                    <div class="row g-0">
+                        <div class="col-lg-6  col-md-6">
+                            <div class="image">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 text col-md-6">
+                            <p class="label">
+                                Restaurant
+                            </p>
+                            <div class="text-body">
+                                <h5>
+                                    Ut enim ad minim veniam, quis nostrud
+                                </h5>
+                                <p class="before">
+                                    <i class="fa-regular fa-clock"></i>
+                                    22th March, 2019
+                                </p>
+                            </div>
+                            <button type="button" class="btn">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 column-3">
+                    <div class="row g-0">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="image"></div>
+                        </div>
+                        <div class="col-lg-6 text col-md-6">
+                            <p class="label">
+                                Travel
+                            </p>
+                            <div class="text-body">
+                                <h5>
+                                    Ut enim ad minim veniam, quis nostrud
+                                </h5>
+                                <p class="before">
+                                    <i class="fa-regular fa-clock"></i>
+                                    25th March, 2019
+                                </p>
+                            </div>
+                            <button type="button" class="btn">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 column-4">
+                    <div class="row g-0">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="image"></div>
+                        </div>
+                        <div class="col-lg-6 text col-md-6">
+                            <p class="label">
+                                Booking
+                            </p>
+                            <div class="text-body">
+                                <h5>
+                                    Ut enim ad minim veniam, quis nostrud
+                                </h5>
+                                <p class="before">
+                                    <i class="fa-regular fa-clock"></i>
+                                    29th March, 2019
+                                </p>
+                            </div>
+                            <button type="button" class="btn">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end ourBlogSec -->
+
+    <!-- start Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="my-row">
+                    <div class="image">
+                        <a href="#">
+                            <img src="imgs/logo-1.png.webp" alt="Logo One" />
+                        </a>
+                    </div>
+                    <div class="image">
+                        <a href="#">
+                            <img src="imgs/logo-2.png.webp" alt="Logo Two" />
+                        </a>
+                    </div>
+                    <div class="image">
+                        <a href="#">
+                            <img src="imgs/logo-3.png.webp" alt="Logo Three" />
+                        </a>
+                    </div>
+                    <div class="image">
+                        <a href="#">
+                            <img src="imgs/logo-4.png.webp" alt="Logo Four" />
+                        </a>
+                    </div>
+                    <div class="image">
+                        <a href="#">
+                            <img src="imgs/logo-5.png.webp" alt="Logo Five" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-meddle">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="image">
+                            <a href="#">
+                                <img src="imgs/logo.png (1).webp" alt="Main-Logo" />
+                            </a>
+                        </div>
+                        <h3>
+                            (123) 456-78-91096
+                        </h3>
+                        <p>
+                            Ernser Vista Suite 437, NY
+                            Info.colorlib@gmail.com
+                        </p>
+                        <ul class="social">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h3>
+                            Quick Link
+                        </h3>
+                        <div class="row">
+                            <ul class="col-6">
+                                <li><a href="#">
+                                    Home
+                                </a></li>
+                                <li><a href="#">
+                                    Booking
+                                </a></li>
+                                <li><a href="#">
+                                    About Us
+                                </a></li>
+                                <li><a href="#">
+                                    Review
+                                </a></li>
+                                <li><a href="#">
+                                    Contact
+                                </a></li>
+                            </ul>
+                            <ul class="col-6">
+                                <li>
+                                    <a href="#">
+                                        Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Our Room
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Restaurants
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Payments
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Events
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6">
+                        <h3>
+                            Subscribe our newlatester
+                        </h3>
+                        <form action="#" class="mb-5 position-relative">
+                            <input type="email" id="email-1" name="email-1" placeholder="Your E-mail Adress" />
+                            <input type="submit" id="submit-1" name="submit-1" value="Subscribe" />
+                        </form>
+                        <h4>
+                            Find Us:
+                        </h4>
+                        <ul class="social social-2">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end">
+                <div class="row">
+                    <div class="col-lg-8 col-md-7 starting">
+                        <p>
+                            Copyright © 2023 All rights reserved | This template is made with
+                            <i class="fa-solid fa-heart"></i>
+                            by
+                            <a target="_blank" href="https://colorlib.com/">
+                                Colorlib
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-5 ending">
+                        <a href="#">Terms Of Use</a>
+                        <hr />
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end Footer -->
+
+    <!-- Start JS-Elelements -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- End JS-Elelements -->
+</body>
+</html>

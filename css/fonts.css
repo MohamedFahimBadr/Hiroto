@@ -1,0 +1,51 @@
+/* start DMS-font */
+@font-face {
+    font-family: DBold;
+    src: url(fonts/DMSans/DMSans-Bold.ttf);
+}
+@font-face {
+    font-family: DMedium;
+    src: url(fonts/DMSans/DMSans-Medium.ttf);
+}
+@font-face {
+    font-family: DRegular;
+    src: url(fonts/DMSans/DMSans-Regular.ttf);
+}
+/* end DMS-font */
+/* start Barlow-font */
+@font-face {
+    font-family: BBlack;
+    src: url(fonts/Barlow/BarlowCondensed-Black.ttf);
+}
+@font-face {
+    font-family: BExtraBold;
+    src: url(fonts/Barlow/BarlowCondensed-ExtraBold.ttf);
+}
+@font-face {
+    font-family: BBold;
+    src: url(fonts/Barlow/BarlowCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: BSemiBold;
+    src: url(fonts/Barlow/BarlowCondensed-SemiBold.ttf);
+}
+@font-face {
+    font-family: BMedium;
+    src: url(fonts/Barlow/BarlowCondensed-Medium.ttf);
+}
+@font-face {
+    font-family: BRegular;
+    src: url(fonts/Barlow/BarlowCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: BLight;
+    src: url(fonts/Barlow/BarlowCondensed-Light.ttf);
+}
+@font-face {
+    font-family: BExtraLight;
+    src: url(fonts/Barlow/BarlowCondensed-ExtraLight.ttf);
+}
+@font-face {
+    font-family: BThin;
+    src: url(fonts/Barlow/BarlowCondensed-Thin.ttf);
+}
